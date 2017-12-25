@@ -1,0 +1,33 @@
+<!--pages/demo/demo.wxml-->
+<view >
+  <image src='../img/bg.png' class='img-head'></image>
+</view>
+<view class='content'>
+  <view class='main main-raised m-b-40'>
+    <view class="profile-content profile-page">
+            <view class="container">
+                <view class="row">
+                  <view class="">
+                     <view class="profile">
+                           <view class="avatar imggs img-circle img-responsive img-raised" bindtap="doUpload">
+                              <image src="../img/tianjia.png" class="touxiang" id='huantu'/>
+                          </view> 
+                          <view class="name">
+                              <input class='font-name' placeholder='请在此输入名字'/>
+                              <input class='font-company' placeholder='请在此输入公司名称'/>
+                              <input class='font-job' placeholder='请在此输入职位'/>
+                              <input class='font-job' placeholder='请在此输入手机号'/>
+                          </view>
+                      </view>
+                  </view>
+                </view>
+                <view class="description text-center">
+                    <textarea placeholder='个人介绍'></textarea>
+                </view>
+               <view class='button-father'>
+                <button class='sub' type='primary'>完成</button>
+               </view>
+            </view>
+        </view>
+  </view>
+</view>

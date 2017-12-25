@@ -1,0 +1,17 @@
+<text>{{id}}</text>
+
+<view clas="view1" bindtap="view1click" id="view1" data-title="新闻标题" data-id="100">
+
+view111
+   <view class="view2" bindtap="view2click" id="view2">
+view222
+           <view class="view3" bindtap="view3click" id="view3">
+                    
+view333     
+           </view>
+
+   
+   </view>
+
+
+</view>

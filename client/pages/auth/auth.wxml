@@ -1,0 +1,28 @@
+<view class="container">
+     <view class="head">
+        <image  src="{{imgurl}}"></image>
+     </view>
+     <view class="content">
+          <form bindsubmit="formSubmit" bindreset="formReset">
+                <view class="from-texts"><text class='from-text'>填写用户信息</text></view>
+                <view class="from-input"><input name="name" placeholder="输入你的名字" /></view>
+                <view class="from-input"><input name="phone" placeholder="输入你的电话" /></view>
+                <view class="from-input"><input name="company" placeholder="输入公司名称" /></view>
+
+                <view class="from-input"><input name="duty" placeholder="输入职务" /></view>
+                <view class="from-input"><input name="email" placeholder="输入邮箱" /></view>
+                <view class="from-maxinput"><textarea class='textarea' bindblur="bindTextAreaBlur" placeholder="来一段简单的介绍，让微信好友更好的了解你" name='more'/></view>
+                 <view class="from-maxinput2"><textarea class='textarea' bindblur="bindTextAreaBlur" placeholder="介绍一下你的公司" name='more'/></view>
+                  <view class="from-maxinput2"><textarea class='textarea' bindblur="bindTextAreaBlur" placeholder="介绍一下你们公司的产品" name='more'/></view>
+                <view ><image src='./1.png' class='image' bindtap='shangchuan' name='image'></image></view>
+                
+                <button class="button"  size="default" bindtap="primary" plain='false' formType="submit"> 提交保存</button>
+          </form>
+     </view>
+
+
+
+
+
+
+</view>

@@ -1,0 +1,17 @@
+<include src="../templates/head"/>
+
+huiye..............
+
+<button type="default" hover-class="other-button-hover"> default </button>
+<button type="primary" bindtap='btnclick'> {{btntext}} </button>
+<view wx:if="{{show}}">{{text}}1111</view>
+<view wx:else="{{show}}">{{text}}2222</view>
+
+<view wx:for="{{news}}">
+{{index}},{{item}}
+</view>
+
+
+
+<import src="../templates/food"/>
+<template is="food1" data="{{text:'导入设置的内容'}}"/>

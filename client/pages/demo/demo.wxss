@@ -1,0 +1,161 @@
+/* pages/demo/demo.wxss */
+.content {
+    padding-top: 32px;
+}
+.img-head{
+  width: 100%;
+}
+.img-row {
+  border-radius: 50%;
+}
+.img{
+ opacity:0.5;
+}
+.img-qi {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.main {
+    background: #FFFFFF;
+    position: relative;
+    z-index: 3;
+}
+.main-raised {
+    margin: -60px 30px 0px;
+    border-radius: 6px;
+    box-shadow: 0 16px 40px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.main-raised{
+      margin-left: 30rpx;
+    margin-right: 30rpx;
+}
+.profile-page .page-header {
+  height: 380px;
+  background-position: top center;
+}
+.profile-page .profile {
+  text-align: center;
+}
+.profile-page .profile image {
+  
+  height: 250rpx;
+  width: 250rpx;
+  margin: 0 auto;
+  transform: translate3d(0, -50%, 0);
+}
+.profile-page .profile .name {
+  margin-top: -50px;
+}
+.profile-page .description {
+  margin: 15px auto 0;
+  max-width: 600px;
+}
+.profile-page .profile-tabs {
+  margin-top: 60px;
+}
+.profile-page .gallery {
+  margin-top: 45px;
+  padding-bottom: 50px;
+}
+.profile-page .gallery img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.profile-page .follow .btn-fab {
+  margin-top: -28px;
+}
+.profile-page .card-background .content {
+  padding: 30% 0;
+  min-width: 160px;
+}
+.profile-page .work {
+  padding: 40px 0px;
+}
+.profile-page .work .collections {
+  margin-top: 20px;
+}
+.profile-page .work .stats ul > li {
+  padding: 5px 0px;
+  font-size: 1em;
+}
+.profile-page .work .stats ul > li b {
+  font-size: 1.2em;
+}
+.profile-page .connections {
+  padding: 40px 0px;
+}
+.profile-page .connections .card-profile {
+  text-align: left;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.col-xs-offset-3 {
+    margin-left: 25%;
+}
+.col-xs-6 {
+     width: 50%; 
+    
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-raised {
+    box-shadow: 0 25px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.description, .card-description, .footer-big p {
+    color: #999999;
+    font-size: 14pt;
+    font-family: '微软雅黑';
+}
+.text-center {
+    text-align: center;
+}
+.font-name{
+   font-family:  '微软雅黑';
+   font-size: 18pt;
+   font-weight: bold;
+   color: 	#2F4F4F;
+}
+.font-job{
+  font-family:  '微软雅黑';
+  font-size: 10pt;
+}
+.font-company{
+  font-family:  '微软雅黑';
+  font-size: 13pt;
+  font-weight: bold;
+  color: #f16369;
+}
+.m-b-40 {
+    margin-bottom: 40px;
+}
+.button-father{
+  display: flex;
+   margin: 15px auto 0;
+   text-align: center;
+}
+.button-c{
+  width: 200rpx;
+  height: 150rpx;
+  font-family: "微软雅黑";
+  font-size: 12pt;
+  color: #2F4F4F;
+}
+.button-small{
+  
+  justify-content: center;   
+  
+}
+.button-img{
+  width: 60rpx;
+height:50rpx;
+position: relative;
+  top: 10px;
+}

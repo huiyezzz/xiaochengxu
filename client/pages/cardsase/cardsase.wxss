@@ -1,0 +1,114 @@
+.container{
+  display: flex;
+  justify-content: center
+}
+
+ .content{
+     height:100%;
+     width:100%;
+     display: flex;
+     /* 设置居中 */
+     justify-content: center;
+     /* 设置换行 */
+     flex-wrap: wrap;
+} 
+.content-button{
+  width: 700rpx;
+   margin: 10px;
+}
+.navigator{
+  width:850rpx;
+   margin: 10px;
+}
+.content-item1{
+  opacity:0.7;
+  position: relative;
+  height: 400rpx;
+  width: 90%;
+  /* 设置控件间距 */
+  /* margin: 10px; */
+ background-color:#ccc;
+}
+.content-item2{
+  margin-top: 25rpx;
+  opacity:0.5;
+  position: relative;
+  height: 600rpx;
+  width: 90%;
+  /* 设置控件间距 */
+  /* margin: 10px; */
+ background-color: white;
+}
+
+.content-item-texts{
+ position: absolute;
+ bottom: 10px;
+ left: 10px;
+ color: white;
+ font-size: 15px;
+ flex-wrap: wrap;
+}
+
+.content-item-text2s{
+ position: absolute;
+ left: 10px;
+ height: 30px;
+ color:black;
+ font-size: 12px;
+ flex-wrap: wrap;
+}
+
+.content-item-text{
+ width: 30%;
+height: 20px; 
+}
+
+.image{
+  width: 30%;
+  height: 70px;
+  flex-shrink: 1;
+  margin-left: 10rpx;
+}
+.advar{
+  position: absolute;
+  left: 250rpx;
+ bottom: 250rpx;
+ border-radius: 50%;
+  width: 30%;
+  height: 110rpx;
+  /* flex-shrink: 1; */
+}
+.text{
+   position: absolute;
+  left: 280rpx;
+ bottom: 200rpx;
+}
+.button-father{
+  display: flex;
+   margin: 15px auto 0;
+   text-align: center;
+}
+.button-c{
+  width: 200rpx;
+  height: 150rpx;
+  font-family: "微软雅黑";
+  font-size: 12pt;
+  color: #2F4F4F;
+}
+.button-small{
+  justify-content: center;  
+}
+.button-img{
+  width: 60rpx;
+height:50rpx;
+position: relative;
+  top: 10px;
+}
+.images{
+   position: absolute;
+  left: 10px;
+ bottom: 10px;
+  width: 90%;
+  height: 70px;
+  display: flex;
+}

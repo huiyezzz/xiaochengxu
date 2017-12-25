@@ -1,0 +1,8 @@
+<template name="food1">
+这是底部1--{{text}}
+</template>
+
+
+<template name="food2">
+这是底部2--{{text}}
+</template>

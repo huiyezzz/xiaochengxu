@@ -1,0 +1,47 @@
+<view class="container">
+<text>我的名片</text>
+<view class="content">
+     <view class="content-item1" >
+             <image src="{{imgurl}}" class='advar'></image>
+             <text class='text'>{{name}}</text>
+            <view class="content-item-texts">
+                   <view><text class="content-item-text">电话：  {{phone}}</text></view>
+                   <view><text class="content-item-text">公司：{{company}}</text></view>
+                    <view><text class="content-item-text">邮箱：{{email}}</text></view>
+            </view>     
+     </view>
+     <view class="content-item2">
+           <view class="content-item-text2s">
+             <view> <text>更多：{{more}}</text></view>
+              <view><text>公司介绍：{{more}}</text></view>
+              <view><text>公司产品介绍：{{more}}</text></view>
+           </view>
+           <view class="images"><image src="http://qfdibz.natappfree.cc/images/{{img0}}" class='image'></image>
+           <image src="http://qfdibz.natappfree.cc/images/{{img1}}" class='image'></image>
+           <image src="http://qfdibz.natappfree.cc/images/{{img2}}" class='image'></image></view>
+         
+     </view>
+      <view class='button-father'>
+                <view class='button-c'>
+               <text> {{eye}}</text>
+                <view class='button-small'>
+                <image src='../img/liulan.png' class='button-img'/>
+                </view>
+                </view>
+                <view class='button-c'>
+               <text> {{finger}}</text>
+                 <view class='button-small'>
+                <image src='{{dianzan}}' class='button-img' bindtap='dianzan' />
+                </view>
+                </view>
+                 </view>
+     <button class="content-button" type="primary" size="default" bindtap="primary"> 收藏名片 </button>
+    <navigator url="../auth/auth" class='navigator'>
+              <button class="content-button" type="primary" size="default" bindtap="primary" plain='false'> 打开我的名片 </button>
+    </navigator>
+     <button class="content-button" type="primary" size="default" bindtap="primary" plain='false'> 导入到手机 </button>
+        
+</view>
+
+ 
+</view>

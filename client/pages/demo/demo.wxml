@@ -1,0 +1,58 @@
+<!--pages/demo/demo.wxml-->
+<view >
+  <image src='../img/bg.png' class='img-head'></image>
+</view>
+<view class='content'>
+  <view class='main main-raised m-b-40'>
+    <view class="profile-content profile-page">
+            <view class="container">
+                <view class="row">
+                  <view class="">
+                     <view class="profile">
+                           <view class="avatar">
+                              <image src="../img/man.jpg" class="img-circle img-responsive img-raised"/>
+                          </view> 
+                          <view class="name">
+                              <text class='font-name'>李大旺</text>
+                              <text class='font-company'>\n汉得信息技术股份有限公司</text>
+                              <text class='font-job'>\n技术服务中心实习技术顾问</text>
+                              <text class='font-job'>\n1234567890</text>
+                          </view>
+                      </view>
+                  </view>
+                </view>
+                <view class="description text-center">
+                    <p>个人介绍：我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！ </p>
+                </view>
+                <view class="description text-center">
+                    <p>公司介绍：我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！ </p>
+                </view>
+                <view class="description text-center">
+                    <p>公司产品介绍：我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！我要加油！ </p>
+                </view>
+               <view class='button-father'>
+                <view class='button-c'>
+                1
+                <view class='button-small'>
+                <image src='../img/liulan.png' class='button-img'/>
+                </view>
+                </view>
+                <view class='button-c'>
+                1
+                 <view class='button-small'>
+                <image src='../img/weizan.png' class='button-img'/>
+                </view>
+                </view>
+                <view class='button-c'>
+                我的名片
+                 <view class='button-small' >
+                <image src='../img/mingpian.png' class='button-img'/>
+                </view>
+                </view>
+
+               </view>
+                
+            </view>
+        </view>
+  </view>
+</view>
